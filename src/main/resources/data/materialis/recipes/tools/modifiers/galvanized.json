@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:modifier",
+  "inputs": [
+    {
+      "item": "minecraft:phantom_membrane"
+    },
+    {
+      "tag": "forge:ingots/iron"
+    }
+  ],
+  "tools": {
+    "tag": "materialis:galvanizable"
+  },
+  "slots": {
+    "upgrades": 2
+  },
+  "allow_crystal": true,
+  "result": "materialis:galvanized"
+}

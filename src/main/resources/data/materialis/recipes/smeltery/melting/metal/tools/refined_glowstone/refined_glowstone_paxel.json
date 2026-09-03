@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "mekanismtools",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "mekanismtools:refined_glowstone_paxel"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_refined_glowstone",
+    "amount": 630,
+    "unit_size": 10
+  },
+  "temperature": 825,
+  "time": 161
+}

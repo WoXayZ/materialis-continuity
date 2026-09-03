@@ -1,0 +1,11 @@
+{
+  "color": "FF42BE30",
+  "still": "materialis:block/fluid/molten_orichalcum_still",
+  "flowing": "materialis:block/fluid/molten_orichalcum_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

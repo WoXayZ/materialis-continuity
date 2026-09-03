@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/shadow_steel",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "tag": "forge:molten_shadow_steel",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/shadow_steel"
+  },
+  "cooling_time": 75
+}

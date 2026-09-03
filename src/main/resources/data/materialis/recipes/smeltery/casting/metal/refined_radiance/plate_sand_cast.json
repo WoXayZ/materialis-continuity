@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:plates/refined_radiance",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/plate"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_refined_radiance",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:plates/refined_radiance"
+  },
+  "cooling_time": 75
+}

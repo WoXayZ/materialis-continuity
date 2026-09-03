@@ -1,0 +1,25 @@
+{
+  "type": "materialis:sensor_modifier",
+  "conditions": [
+    {
+      "modid": "psi",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "materialis:psi_sensor"
+    }
+  ],
+  "tools": {
+    "tag": "materialis:sensor_slottable"
+  },
+  "slots": {
+    "sensor": 1
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "materialis:psionizing_radiation_sensor",
+    "value": "sensor"
+  }
+}

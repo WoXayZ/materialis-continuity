@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:inlays/pewter",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "materialis:casts/multi_use/inlay"
+  },
+  "fluid": {
+    "tag": "tconstruct:molten_pewter",
+    "amount": 180
+  },
+  "result": {
+    "tag": "forge:inlays/pewter"
+  },
+  "cooling_time": 65
+}

@@ -1,0 +1,17 @@
+{
+  "type": "materialis:tinker_spell_write",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ars_nouveau"
+    }
+  ],
+  "sourceCost": 0,
+  "pedestalItems": [
+    {
+      "item": {
+        "item": "ars_nouveau:spell_parchment"
+      }
+    }
+  ]
+}

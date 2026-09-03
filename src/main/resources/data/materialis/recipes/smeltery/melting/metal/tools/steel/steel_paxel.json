@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "mekanismtools",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "mekanismtools:steel_paxel"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_steel",
+    "amount": 630,
+    "unit_size": 10
+  },
+  "temperature": 950,
+  "time": 171
+}

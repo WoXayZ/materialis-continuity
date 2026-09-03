@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:coins/refined_radiance",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/coin"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_refined_radiance",
+    "amount": 30
+  },
+  "result": {
+    "tag": "forge:coins/refined_radiance"
+  },
+  "cooling_time": 43
+}

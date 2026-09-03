@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/refined_glowstone",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/refined_glowstone"
+    },
+    {
+      "tag": "forge:ingots/refined_glowstone"
+    },
+    {
+      "tag": "forge:ingots/refined_glowstone"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:refined_glowstone"
+  }
+}

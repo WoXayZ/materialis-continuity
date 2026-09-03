@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/neutronium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/neutronium"
+    },
+    {
+      "tag": "forge:ingots/neutronium"
+    },
+    {
+      "tag": "forge:ingots/neutronium"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:neutronium"
+  }
+}

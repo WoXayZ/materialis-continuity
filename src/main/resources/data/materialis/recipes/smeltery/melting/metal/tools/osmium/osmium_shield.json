@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "mekanismtools",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "mekanismtools:osmium_shield"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_osmium",
+    "amount": 540,
+    "unit_size": 10
+  },
+  "temperature": 975,
+  "time": 161,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_iron",
+      "amount": 90,
+      "unit_size": 10
+    }
+  ]
+}

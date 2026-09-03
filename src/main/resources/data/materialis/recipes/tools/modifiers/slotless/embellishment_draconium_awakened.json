@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/draconium_awakened",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    },
+    {
+      "tag": "forge:ingots/draconium_awakened"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:draconium_awakened"
+  }
+}

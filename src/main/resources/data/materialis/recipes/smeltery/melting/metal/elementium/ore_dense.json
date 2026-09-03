@@ -1,0 +1,37 @@
+{
+  "type": "tconstruct:ore_melting",
+  "conditions": [
+    {
+      "registry": "minecraft:item",
+      "tags": [
+        "forge:ores/elementium",
+        "forge:ore_rates/dense"
+      ],
+      "type": "tconstruct:tag_intersection_present"
+    }
+  ],
+  "rate": "metal",
+  "ingredient": {
+    "type": "forge:intersection",
+    "children": [
+      {
+        "tag": "forge:ores/elementium"
+      },
+      {
+        "tag": "forge:ore_rates/dense"
+      }
+    ]
+  },
+  "result": {
+    "fluid": "materialis:molten_elementium",
+    "amount": 540
+  },
+  "temperature": 1160,
+  "time": 319,
+  "byproducts": [
+    {
+      "fluid": "tconstruct:molten_gold",
+      "amount": 180
+    }
+  ]
+}

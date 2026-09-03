@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "mysticalworld",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "mysticalworld:tin_axe"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_tin",
+    "amount": 270,
+    "unit_size": 10
+  },
+  "temperature": 225,
+  "time": 68
+}

@@ -1,0 +1,11 @@
+{
+  "color": "FF635D71",
+  "still": "materialis:block/fluid/molten_shadow_steel_still",
+  "flowing": "materialis:block/fluid/molten_shadow_steel_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

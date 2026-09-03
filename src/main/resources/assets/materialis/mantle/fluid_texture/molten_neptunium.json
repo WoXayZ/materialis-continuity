@@ -1,0 +1,11 @@
+{
+  "color": "FF17F1B6",
+  "still": "materialis:block/fluid/molten_neptunium_still",
+  "flowing": "materialis:block/fluid/molten_neptunium_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

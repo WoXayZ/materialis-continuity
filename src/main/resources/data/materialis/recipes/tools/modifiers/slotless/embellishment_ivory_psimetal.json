@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/ivory_psimetal",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/ivory_psimetal"
+    },
+    {
+      "tag": "forge:ingots/ivory_psimetal"
+    },
+    {
+      "tag": "forge:ingots/ivory_psimetal"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:ivory_psimetal"
+  }
+}

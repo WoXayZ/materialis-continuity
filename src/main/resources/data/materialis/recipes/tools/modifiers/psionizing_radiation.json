@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "psi",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/psimetal"
+    },
+    {
+      "item": "psi:cad_socket_basic"
+    },
+    {
+      "tag": "forge:ingots/psimetal"
+    },
+    {
+      "tag": "forge:gems/psigem"
+    },
+    {
+      "tag": "forge:gems/psigem"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/held"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:psionizing_radiation"
+}

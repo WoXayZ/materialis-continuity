@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "value": {
+        "tag": "materialis:rose_quartz_material",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "materialis:rose_quartz_material"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "materialis:rose_quartz"
+}

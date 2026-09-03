@@ -1,0 +1,23 @@
+{
+  "replace": false,
+  "values": [
+    "materialis:wrench",
+    "materialis:battlewrench",
+    {
+      "id": "materialis:psimetal_exosuit_boots",
+      "required": false
+    },
+    {
+      "id": "materialis:psimetal_exosuit_leggings",
+      "required": false
+    },
+    {
+      "id": "materialis:psimetal_exosuit_chestplate",
+      "required": false
+    },
+    {
+      "id": "materialis:psimetal_exosuit_helmet",
+      "required": false
+    }
+  ]
+}

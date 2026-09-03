@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "tools": {
+    "tag": "materialis:galvanizable"
+  },
+  "slots": {
+    "upgrades": 2
+  },
+  "modifier": "materialis:galvanized",
+  "min_level": 1
+}

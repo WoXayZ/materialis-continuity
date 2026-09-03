@@ -1,0 +1,73 @@
+package com.materialiscontinuity.modifiers;
+
+import com.materialiscontinuity.util.SpellSockets;
+
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.entity.player.Player;
+import net.minecraft.world.item.ItemStack;
+import slimeknights.tconstruct.library.modifiers.ModifierEntry;
+import slimeknights.tconstruct.library.modifiers.ModifierHooks;
+import slimeknights.tconstruct.library.modifiers.hook.interaction.GeneralInteractionModifierHook;
+import slimeknights.tconstruct.library.modifiers.hook.interaction.InteractionSource;
+import slimeknights.tconstruct.library.module.ModuleHookMap.Builder;
+import slimeknights.tconstruct.library.tools.helper.ToolDamageUtil;
+import slimeknights.tconstruct.library.tools.nbt.IToolContext;
+import slimeknights.tconstruct.library.tools.nbt.IToolStackView;
+import slimeknights.tconstruct.library.tools.nbt.ToolDataNBT;
+import slimeknights.tconstruct.library.tools.nbt.ToolStack;
+import vazkii.psi.api.PsiAPI;
+import vazkii.psi.api.cad.ISocketable;
+import vazkii.psi.api.spell.ISpellAcceptor;
+import vazkii.psi.common.core.handler.PlayerDataHandler;
+import vazkii.psi.common.core.handler.PlayerDataHandler.PlayerData;
+import vazkii.psi.common.item.ItemCAD;
+
+public class SpellCastingModifier extends SpellSocketModifier implements GeneralInteractionModifierHook {
+
+	@Override
+	public int getPriority() {
+		return -100;
+	}
+
+	@Override
+	protected void registerHooks(Builder hookBuilder) {
+		super.registerHooks(hookBuilder);
+		hookBuilder.addHook(this, ModifierHooks.GENERAL_INTERACT);
+	}
+
+	@Override
+	public void addVolatileData(IToolContext context, ModifierEntry modifier, ToolDataNBT volatileData) {
+		super.addVolatileData(context, modifier, volatileData);
+		volatileData.putBoolean(PsionizingRadiationModifier.SUPPRESS_TOOLCASTING, true);
+		volatileData.putBoolean(SpellSockets.CAN_LOOPCAST, true);
+		volatileData.putBoolean(SpellSockets.SHOW_PSI_BAR, true);
+	}
+
+	@Override
+	public InteractionResult onToolUse(IToolStackView tool, ModifierEntry modifier, Player player, InteractionHand hand, InteractionSource source) {
+		if (PSI_LOADED && !tool.isBroken()) {
+			ItemStack toolStack = player.getMainHandItem();
+			if (tool instanceof ToolStack) {
+				toolStack = ((ToolStack) tool).createStack();
+			}
+			PlayerData data = PlayerDataHandler.get(player);
+			ItemStack playerCad = PsiAPI.getPlayerCAD(player);
+
+			if (!playerCad.isEmpty()) {
+				ItemStack bullet = ISocketable.socketable(toolStack).getSelectedBullet();
+				if (!data.overflowed && data.getAvailablePsi() > 0 && !bullet.isEmpty() && ISpellAcceptor.hasSpell(bullet) && ItemCAD.isTruePlayer(player)) {
+					int timesCast = tool.getPersistentData().getInt(SpellSockets.TIMES_CAST);
+					ItemCAD.cast(player.level(), player, data, bullet, playerCad, 40, 25, 0.5F, spellContext -> {
+						spellContext.castFrom = hand;
+						spellContext.loopcastIndex = timesCast;
+					});
+					ToolDamageUtil.damage(tool, 1, player, toolStack);
+					tool.getPersistentData().putInt(SpellSockets.TIMES_CAST, timesCast + 1);
+					return InteractionResult.CONSUME;
+				}
+			}
+		}
+		return InteractionResult.PASS;
+	}
+}

@@ -1,0 +1,13 @@
+{
+  "type": "tconstruct:overslime_modifier",
+  "conditions": [
+    {
+      "modid": "industrialforegoing",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "tag": "materialis:pink_slime"
+  },
+  "restore_amount": 70
+}

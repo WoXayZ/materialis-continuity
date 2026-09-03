@@ -1,0 +1,11 @@
+{
+  "color": "FFF15CAE",
+  "still": "materialis:block/fluid/molten_elementium_still",
+  "flowing": "materialis:block/fluid/molten_elementium_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

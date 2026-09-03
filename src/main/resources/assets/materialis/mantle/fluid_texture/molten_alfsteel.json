@@ -1,0 +1,11 @@
+{
+  "color": "FFFFC74E",
+  "still": "materialis:block/fluid/molten_alfsteel_still",
+  "flowing": "materialis:block/fluid/molten_alfsteel_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "avaritia",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:rods/blaze"
+    },
+    {
+      "tag": "forge:nether_stars"
+    },
+    {
+      "tag": "forge:rods/blaze"
+    },
+    {
+      "tag": "forge:storage_blocks/crystal_matrix"
+    },
+    {
+      "tag": "forge:storage_blocks/crystal_matrix"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "requirements": {
+    "name": "tconstruct:severing",
+    "level": 5,
+    "error": "recipe.materialis.modifier.skullfire_requirements"
+  },
+  "allow_crystal": true,
+  "result": "materialis:skullfire",
+  "max_level": 1
+}

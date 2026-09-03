@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "modid": "eidolon",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "eidolon:pewter_blend"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_pewter",
+    "amount": 90
+  },
+  "temperature": 400,
+  "time": 46
+}

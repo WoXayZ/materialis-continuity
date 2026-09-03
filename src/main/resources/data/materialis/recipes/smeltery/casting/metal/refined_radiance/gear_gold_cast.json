@@ -1,0 +1,27 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:gears/refined_radiance",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/gear"
+  },
+  "fluid": {
+    "tag": "forge:molten_refined_radiance",
+    "amount": 360
+  },
+  "result": {
+    "tag": "forge:gears/refined_radiance"
+  },
+  "cooling_time": 150
+}

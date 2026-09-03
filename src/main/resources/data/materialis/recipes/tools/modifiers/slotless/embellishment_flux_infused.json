@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/flux_infused",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/flux_infused"
+    },
+    {
+      "tag": "forge:ingots/flux_infused"
+    },
+    {
+      "tag": "forge:ingots/flux_infused"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:flux_infused"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "default": [
+    {
+      "name": "materialis:manaburner",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:limb": [
+      {
+        "name": "materialis:manabolt",
+        "level": 1
+      }
+    ],
+    "tconstruct:grip": [
+      {
+        "name": "materialis:manabolt",
+        "level": 1
+      }
+    ]
+  }
+}

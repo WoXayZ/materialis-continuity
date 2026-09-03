@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "tconstruct:molten_nickel",
+    "amount": 90
+  },
+  "temperature": 950,
+  "output": "materialis:nickel"
+}

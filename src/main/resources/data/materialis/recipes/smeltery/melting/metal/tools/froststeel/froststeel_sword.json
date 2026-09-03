@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "undergarden",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "undergarden:froststeel_sword"
+  },
+  "result": {
+    "fluid": "materialis:molten_froststeel",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 860,
+  "time": 88
+}

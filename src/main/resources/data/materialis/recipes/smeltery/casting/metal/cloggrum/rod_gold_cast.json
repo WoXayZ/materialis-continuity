@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:rods/cloggrum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/rod"
+  },
+  "fluid": {
+    "tag": "forge:molten_cloggrum",
+    "amount": 45
+  },
+  "result": {
+    "tag": "forge:rods/cloggrum"
+  },
+  "cooling_time": 39
+}

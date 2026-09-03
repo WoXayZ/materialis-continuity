@@ -1,0 +1,11 @@
+{
+  "color": "FFF6F9ED",
+  "still": "materialis:block/fluid/molten_ivory_psimetal_still",
+  "flowing": "materialis:block/fluid/molten_ivory_psimetal_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

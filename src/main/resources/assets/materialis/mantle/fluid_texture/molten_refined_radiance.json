@@ -1,0 +1,11 @@
+{
+  "color": "FFFFFFFF",
+  "still": "materialis:block/fluid/molten_refined_radiance_still",
+  "flowing": "materialis:block/fluid/molten_refined_radiance_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

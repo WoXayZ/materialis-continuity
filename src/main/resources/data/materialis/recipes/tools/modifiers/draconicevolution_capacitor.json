@@ -1,0 +1,38 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "values": [
+        {
+          "modid": "draconicevolution",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "redstone_arsenal",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:or"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:dusts/redstone"
+    },
+    {
+      "item": "draconicevolution:draconium_core"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:capacitor",
+  "max_level": 5
+}

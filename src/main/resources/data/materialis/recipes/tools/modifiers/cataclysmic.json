@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "avaritia",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "avaritia:infinity_catalyst"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "allow_crystal": true,
+  "result": "materialis:cataclysmic"
+}

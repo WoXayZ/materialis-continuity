@@ -1,0 +1,12 @@
+{
+  "default": [
+    {
+      "name": "materialis:lesser_psionizing_radiation",
+      "level": 1
+    },
+    {
+      "name": "materialis:psicho_killer",
+      "level": 1
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "modifier": "materialis:engineers_goggles",
+  "min_level": 1
+}

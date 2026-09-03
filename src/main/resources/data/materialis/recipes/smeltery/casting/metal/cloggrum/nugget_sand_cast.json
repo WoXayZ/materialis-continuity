@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/cloggrum",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/single_use/nugget"
+  },
+  "cast_consumed": true,
+  "fluid": {
+    "tag": "forge:molten_cloggrum",
+    "amount": 10
+  },
+  "result": {
+    "tag": "forge:nuggets/cloggrum"
+  },
+  "cooling_time": 18
+}

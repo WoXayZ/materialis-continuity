@@ -1,0 +1,11 @@
+{
+  "color": "FFFF9FEF",
+  "still": "materialis:block/fluid/molten_pink_slime_still",
+  "flowing": "materialis:block/fluid/molten_pink_slime_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

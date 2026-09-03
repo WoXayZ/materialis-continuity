@@ -1,0 +1,22 @@
+{
+  "condition": {
+    "values": [
+      {
+        "prop": "force_integration_materials",
+        "type": "tconstruct:config"
+      },
+      {
+        "value": {
+          "tag": "materialis:rose_quartz_material",
+          "type": "forge:tag_empty"
+        },
+        "type": "forge:not"
+      }
+    ],
+    "type": "forge:or"
+  },
+  "craftable": true,
+  "tier": 3,
+  "sortOrder": 15,
+  "hidden": false
+}

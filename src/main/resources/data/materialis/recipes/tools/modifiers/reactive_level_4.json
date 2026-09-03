@@ -1,0 +1,31 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "ars_nouveau",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ender_pearls"
+    },
+    {
+      "item": "ars_nouveau:wilden_tribute"
+    },
+    {
+      "item": "tconstruct:jeweled_apple"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "requirements": {
+    "name": "materialis:reactive",
+    "level": 3,
+    "error": "recipe.materialis.modifier.reactive_requirements"
+  },
+  "allow_crystal": true,
+  "result": "materialis:reactive",
+  "max_level": 4
+}

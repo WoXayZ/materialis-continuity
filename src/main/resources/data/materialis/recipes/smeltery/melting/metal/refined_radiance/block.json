@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/refined_radiance",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/refined_radiance"
+  },
+  "result": {
+    "fluid": "materialis:molten_refined_radiance",
+    "amount": 810
+  },
+  "temperature": 1300,
+  "time": 225
+}

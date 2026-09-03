@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "occultism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "occultism:iesnium_pickaxe"
+  },
+  "result": {
+    "fluid": "materialis:molten_iesnium",
+    "amount": 270,
+    "unit_size": 10
+  },
+  "temperature": 1090,
+  "time": 119
+}

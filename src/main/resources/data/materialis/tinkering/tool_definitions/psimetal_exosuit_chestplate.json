@@ -1,0 +1,26 @@
+{
+  "modules": [
+    {
+      "type": "tconstruct:base_stats",
+      "stats": {
+        "tconstruct:durability": 288.0,
+        "tconstruct:armor": 5.0
+      }
+    },
+    {
+      "type": "tconstruct:modifier_slots",
+      "slots": {
+        "upgrades": 1,
+        "defense": 2,
+        "abilities": 1
+      }
+    },
+    {
+      "type": "tconstruct:traits",
+      "traits": [
+        { "level": 1, "name": "materialis:psionizing_radiation_damage" },
+        { "level": 1, "name": "materialis:spell_socket" }
+      ]
+    }
+  ]
+}

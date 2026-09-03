@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:ingots/shadow_steel",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/shadow_steel"
+    },
+    {
+      "tag": "forge:ingots/shadow_steel"
+    },
+    {
+      "tag": "forge:ingots/shadow_steel"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:shadow_steel"
+  }
+}

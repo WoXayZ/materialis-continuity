@@ -1,0 +1,47 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "values": [
+        {
+          "values": [
+            {
+              "modid": "draconicevolution",
+              "type": "forge:mod_loaded"
+            },
+            {
+              "modid": "redstone_arsenal",
+              "type": "forge:mod_loaded"
+            }
+          ],
+          "type": "forge:or"
+        },
+        {
+          "modid": "mekanism",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "mekanism:alloy_infused"
+    },
+    {
+      "tag": "forge:ingots/gold"
+    },
+    {
+      "item": "mekanism:alloy_infused"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:capacitor",
+  "max_level": 5
+}

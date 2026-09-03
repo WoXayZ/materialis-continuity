@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "botania",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "botania:elementium_chestplate"
+  },
+  "result": {
+    "fluid": "materialis:molten_elementium",
+    "amount": 720,
+    "unit_size": 10
+  },
+  "temperature": 1160,
+  "time": 201
+}

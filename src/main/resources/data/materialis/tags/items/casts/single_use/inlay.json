@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "materialis:inlay_sand_cast",
+      "required": false
+    },
+    {
+      "id": "materialis:inlay_red_sand_cast",
+      "required": false
+    }
+  ]
+}

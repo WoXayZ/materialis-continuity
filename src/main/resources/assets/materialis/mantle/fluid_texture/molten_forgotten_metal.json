@@ -1,0 +1,11 @@
+{
+  "color": "FF6CD7AA",
+  "still": "materialis:block/fluid/molten_forgotten_metal_still",
+  "flowing": "materialis:block/fluid/molten_forgotten_metal_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "replace": false,
+  "parts": [
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/helmet_modifiers/tconstruct_embellishment",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/helmet_modifiers/tconstruct_embellishment_broken",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/chestplate_modifiers/tconstruct_embellishment",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/chestplate_modifiers/tconstruct_embellishment_broken",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/leggings_modifiers/tconstruct_embellishment",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/leggings_modifiers/tconstruct_embellishment_broken",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/boot_modifiers/tconstruct_embellishment",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/psimetal_exosuit/boot_modifiers/tconstruct_embellishment_broken",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:models/armor/exosuit/accent",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:models/armor/exosuit_magical/accent",
+      "stat_type": "tconstruct:maille"
+    },
+    {
+      "path": "materialis:item/tool/wrench/head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/wrench/broken_head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/wrench/handle",
+      "stat_type": "tconstruct:handle"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/broken_front",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/back",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/broken_head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/front",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/broken_back",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/large/head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/large/broken_front",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/large/back",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/large/broken_head",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/large/front",
+      "stat_type": "tconstruct:head"
+    },
+    {
+      "path": "materialis:item/tool/battlewrench/large/broken_back",
+      "stat_type": "tconstruct:head"
+    }
+  ]
+}

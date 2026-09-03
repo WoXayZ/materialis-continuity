@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "aquaculture",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "aquaculture:neptunium_fillet_knife"
+  },
+  "result": {
+    "fluid": "materialis:molten_neptunium",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1400,
+  "time": 110
+}

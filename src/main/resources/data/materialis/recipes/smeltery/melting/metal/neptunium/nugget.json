@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:nuggets/neptunium",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/neptunium"
+  },
+  "result": {
+    "fluid": "materialis:molten_neptunium",
+    "amount": 10
+  },
+  "temperature": 1400,
+  "time": 26
+}

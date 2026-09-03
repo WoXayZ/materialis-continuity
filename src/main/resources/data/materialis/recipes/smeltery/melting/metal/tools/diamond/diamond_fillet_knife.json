@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "aquaculture",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "aquaculture:diamond_fillet_knife"
+  },
+  "result": {
+    "fluid": "tconstruct:molten_diamond",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1450,
+  "time": 112
+}

@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "eidolon",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "eidolon:tattered_cloth"
+    },
+    {
+      "item": "eidolon:unholy_symbol"
+    },
+    {
+      "item": "eidolon:tattered_cloth"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    },
+    {
+      "item": "eidolon:soul_shard"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:reaping",
+  "max_level": 1
+}

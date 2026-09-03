@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "botania",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "botania:terra_sword"
+  },
+  "result": {
+    "fluid": "materialis:molten_terrasteel",
+    "amount": 180,
+    "unit_size": 10
+  },
+  "temperature": 1280,
+  "time": 105
+}

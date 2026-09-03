@@ -1,0 +1,11 @@
+{
+  "color": "FF3389FF",
+  "still": "materialis:block/fluid/molten_manasteel_still",
+  "flowing": "materialis:block/fluid/molten_manasteel_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "color": "FFFF87BC",
+  "still": "materialis:block/fluid/molten_fairy_still",
+  "flowing": "materialis:block/fluid/molten_fairy_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

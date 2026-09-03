@@ -1,0 +1,47 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "values": [
+        {
+          "values": [
+            {
+              "modid": "draconicevolution",
+              "type": "forge:mod_loaded"
+            },
+            {
+              "modid": "redstone_arsenal",
+              "type": "forge:mod_loaded"
+            }
+          ],
+          "type": "forge:or"
+        },
+        {
+          "modid": "immersiveengineering",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "item": "immersiveengineering:wirecoil_copper"
+    },
+    {
+      "tag": "forge:dusts/redstone"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:capacitor",
+  "max_level": 5
+}

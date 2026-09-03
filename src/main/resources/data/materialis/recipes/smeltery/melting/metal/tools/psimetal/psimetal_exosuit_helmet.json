@@ -1,0 +1,19 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "psi",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "psi:psimetal_exosuit_helmet"
+  },
+  "result": {
+    "fluid": "materialis:molten_psimetal",
+    "amount": 270,
+    "unit_size": 10
+  },
+  "temperature": 750,
+  "time": 101
+}

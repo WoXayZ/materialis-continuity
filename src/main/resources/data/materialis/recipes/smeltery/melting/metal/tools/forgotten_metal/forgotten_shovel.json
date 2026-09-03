@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:damagable_melting",
+  "conditions": [
+    {
+      "modid": "undergarden",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "ingredient": {
+    "item": "undergarden:forgotten_shovel"
+  },
+  "result": {
+    "fluid": "materialis:molten_forgotten_metal",
+    "amount": 90,
+    "unit_size": 10
+  },
+  "temperature": 1230,
+  "time": 73,
+  "byproducts": [
+    {
+      "fluid": "materialis:molten_cloggrum",
+      "amount": 90,
+      "unit_size": 10
+    }
+  ]
+}

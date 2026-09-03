@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:material_melting",
+  "conditions": [
+    {
+      "values": [
+        {
+          "value": {
+            "tag": "forge:ingots/cloggrum",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        },
+        {
+          "value": {
+            "tag": "forge:ingots/forgotten_metal",
+            "type": "forge:tag_empty"
+          },
+          "type": "forge:not"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "input": "materialis:forgotten_metal",
+  "temperature": 1230,
+  "result": {
+    "fluid": "materialis:molten_forgotten_metal",
+    "amount": 30
+  }
+}

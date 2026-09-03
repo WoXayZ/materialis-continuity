@@ -1,0 +1,47 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "values": [
+        {
+          "values": [
+            {
+              "modid": "draconicevolution",
+              "type": "forge:mod_loaded"
+            },
+            {
+              "modid": "redstone_arsenal",
+              "type": "forge:mod_loaded"
+            }
+          ],
+          "type": "forge:or"
+        },
+        {
+          "modid": "thermal",
+          "type": "forge:mod_loaded"
+        }
+      ],
+      "type": "forge:and"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/lead"
+    },
+    {
+      "item": "thermal:rf_coil"
+    },
+    {
+      "tag": "forge:ingots/lead"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:capacitor",
+  "max_level": 5
+}

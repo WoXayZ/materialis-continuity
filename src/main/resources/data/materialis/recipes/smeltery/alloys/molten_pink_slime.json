@@ -1,0 +1,28 @@
+{
+  "type": "tconstruct:alloy",
+  "conditions": [
+    {
+      "modid": "industrialforegoing",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:molten_gold",
+      "amount": 180
+    },
+    {
+      "tag": "forge:molten_iron",
+      "amount": 180
+    },
+    {
+      "tag": "materialis:pink_slime",
+      "amount": 1000
+    }
+  ],
+  "result": {
+    "fluid": "materialis:molten_pink_slime",
+    "amount": 90
+  },
+  "temperature": 960
+}

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "modid": "occultism",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "occultism:otherworld_goggles"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:otherworld_goggles",
+  "max_level": 1
+}

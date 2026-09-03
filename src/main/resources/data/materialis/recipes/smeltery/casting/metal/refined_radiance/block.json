@@ -1,0 +1,24 @@
+{
+  "type": "tconstruct:casting_basin",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:storage_blocks/refined_radiance",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    },
+    {
+      "prop": "chromatic_materials",
+      "type": "materialis:config"
+    }
+  ],
+  "fluid": {
+    "tag": "forge:molten_refined_radiance",
+    "amount": 810
+  },
+  "result": {
+    "tag": "forge:storage_blocks/refined_radiance"
+  },
+  "cooling_time": 225
+}
