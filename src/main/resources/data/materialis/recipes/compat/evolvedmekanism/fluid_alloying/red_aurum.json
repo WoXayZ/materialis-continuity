@@ -1,0 +1,25 @@
+{
+  "type": "evolvedmekanism:fluid_alloying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    }
+  ],
+  "mainInput": {
+    "amount": 180,
+    "tag": "forge:molten_gold"
+  },
+  "extraInput": {
+    "amount": 100,
+    "tag": "tconstruct:blazing_blood"
+  },
+  "secondExtraInput": {
+    "amount": 100,
+    "tag": "tconstruct:meat_soup"
+  },
+  "output": {
+    "amount": 180,
+    "tag": "forge:molten_red_aurum"
+  }
+}

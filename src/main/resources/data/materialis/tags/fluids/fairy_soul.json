@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#tconstruct:liquid_soul",
+    {
+      "id": "#forge:molten_soul",
+      "required": false
+    }
+  ]
+}

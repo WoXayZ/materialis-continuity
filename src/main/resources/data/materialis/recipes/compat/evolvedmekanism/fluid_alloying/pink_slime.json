@@ -1,0 +1,29 @@
+{
+  "type": "evolvedmekanism:fluid_alloying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:mod_loaded",
+      "modid": "industrialforegoing"
+    }
+  ],
+  "mainInput": {
+    "amount": 180,
+    "tag": "forge:molten_gold"
+  },
+  "extraInput": {
+    "amount": 180,
+    "tag": "forge:molten_iron"
+  },
+  "secondExtraInput": {
+    "amount": 1000,
+    "tag": "materialis:pink_slime"
+  },
+  "output": {
+    "amount": 90,
+    "tag": "forge:molten_pink_slime"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "evolvedmekanism:fluid_alloying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    }
+  ],
+  "mainInput": {
+    "amount": 450,
+    "tag": "forge:molten_aluminum"
+  },
+  "extraInput": {
+    "amount": 180,
+    "tag": "forge:molten_iron"
+  },
+  "secondExtraInput": {
+    "amount": 2000,
+    "tag": "forge:molten_obsidian"
+  },
+  "output": {
+    "amount": 270,
+    "tag": "forge:molten_alumite"
+  }
+}

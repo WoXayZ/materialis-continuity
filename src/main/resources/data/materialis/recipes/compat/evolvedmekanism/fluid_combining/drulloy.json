@@ -1,0 +1,21 @@
+{
+  "type": "evolvedmekanism:fluid_combining",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    }
+  ],
+  "mainInput": {
+    "amount": 180,
+    "tag": "forge:molten_copper"
+  },
+  "extraInput": {
+    "amount": 250,
+    "tag": "tconstruct:molten_clay"
+  },
+  "output": {
+    "amount": 180,
+    "tag": "forge:molten_drulloy"
+  }
+}

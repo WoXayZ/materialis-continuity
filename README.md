@@ -5,7 +5,7 @@ Unofficial **Forge 1.20.1** port of [Materialis](https://www.curseforge.com/mine
 | | |
 |---|---|
 | **Mod ID** | `materialis` |
-| **Version** | 1.20.1-1.1-fix |
+| **Version** | 1.20.1-1.1-fix2 |
 | **Minecraft** | 1.20.1 |
 | **Forge** | 47.4.28 |
 | **Java** | 17 |
@@ -24,7 +24,7 @@ Page copy (summary, full description, relations, release changelog) is in [`CURS
 ./gradlew build
 ```
 
-JAR: `build/libs/materialis-continuity-1.20.1-1.1-fix.jar`
+JAR: `build/libs/materialis-continuity-1.20.1-1.1-fix2.jar`
 
 ## Dependencies
 

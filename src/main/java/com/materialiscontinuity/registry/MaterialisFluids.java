@@ -30,7 +30,6 @@ public class MaterialisFluids {
 	public static final FlowingFluidObject<?> MOLTEN_ARCANE_GOLD = metal("molten_arcane_gold", 970, 13, MapColor.GOLD);
 
 	public static final FlowingFluidObject<?> MOLTEN_NEPTUNIUM = metal("molten_neptunium", 1700, 13, MapColor.COLOR_CYAN);
-	public static final FlowingFluidObject<?> MOLTEN_ORICHALCUM = metal("molten_orichalcum", 700, 12, MapColor.COLOR_GREEN);
 	public static final FlowingFluidObject<?> MOLTEN_STARMETAL = metal("molten_starmetal", 1050, 11, MapColor.COLOR_BLUE);
 
 	public static final FlowingFluidObject<?> MOLTEN_PINK_SLIME = metal("molten_pink_slime", 1260, 12, MapColor.COLOR_PINK);
@@ -67,7 +66,7 @@ public class MaterialisFluids {
 
 	public static final List<FlowingFluidObject<?>> COMPAT_FLUIDS = List.of(
 			MOLTEN_FAIRY, MOLTEN_REFINED_RADIANCE, MOLTEN_SHADOW_STEEL, MOLTEN_ARCANE_GOLD,
-			MOLTEN_NEPTUNIUM, MOLTEN_ORICHALCUM, MOLTEN_STARMETAL, MOLTEN_PINK_SLIME,
+			MOLTEN_NEPTUNIUM, MOLTEN_STARMETAL, MOLTEN_PINK_SLIME,
 			MOLTEN_CLOGGRUM, MOLTEN_FROSTSTEEL, MOLTEN_UTHERIUM, MOLTEN_FORGOTTEN_METAL, MOLTEN_REGALIUM,
 			MOLTEN_PSIMETAL, MOLTEN_EBONY_PSIMETAL, MOLTEN_IVORY_PSIMETAL, MOLTEN_IESNIUM,
 			MOLTEN_MANASTEEL, MOLTEN_ELEMENTIUM, MOLTEN_TERRASTEEL, MOLTEN_ALFSTEEL,

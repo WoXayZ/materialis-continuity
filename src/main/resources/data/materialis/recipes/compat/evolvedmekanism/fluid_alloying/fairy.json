@@ -1,0 +1,25 @@
+{
+  "type": "evolvedmekanism:fluid_alloying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    }
+  ],
+  "mainInput": {
+    "amount": 90,
+    "tag": "forge:molten_gold"
+  },
+  "extraInput": {
+    "amount": 1000,
+    "tag": "materialis:fairy_soul"
+  },
+  "secondExtraInput": {
+    "amount": 1000,
+    "tag": "forge:milk"
+  },
+  "output": {
+    "amount": 90,
+    "tag": "forge:molten_fairy"
+  }
+}

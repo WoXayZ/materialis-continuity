@@ -1,0 +1,21 @@
+{
+  "type": "evolvedmekanism:fluid_combining",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    }
+  ],
+  "mainInput": {
+    "amount": 180,
+    "tag": "forge:molten_cobalt"
+  },
+  "extraInput": {
+    "amount": 90,
+    "tag": "forge:molten_tin"
+  },
+  "output": {
+    "amount": 180,
+    "tag": "forge:molten_pokefennium"
+  }
+}
