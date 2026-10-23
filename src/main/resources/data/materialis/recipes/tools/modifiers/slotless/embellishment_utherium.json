@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:utherium"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

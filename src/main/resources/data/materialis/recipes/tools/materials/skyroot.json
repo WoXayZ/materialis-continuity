@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "aether"
+    }
+  ],
+  "ingredient": {
+    "item": "aether:skyroot_planks"
+  },
+  "value": 1,
+  "needed": 4,
+  "material": "materialis:skyroot"
+}

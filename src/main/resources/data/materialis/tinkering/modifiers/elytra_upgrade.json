@@ -1,0 +1,15 @@
+{
+  "level_display": "tconstruct:no_levels",
+  "tooltip_display": "always",
+  "modules": [
+    {
+      "type": "tconstruct:modifier_slot",
+      "each_level": 1,
+      "name": "abilities"
+    },
+    {
+      "type": "tconstruct:volatile_flag",
+      "flag": "tconstruct:elyta"
+    }
+  ]
+}

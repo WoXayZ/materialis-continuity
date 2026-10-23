@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:neptunium"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

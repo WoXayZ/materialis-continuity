@@ -1,0 +1,34 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "tcintegrations"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/soul_stained_steel"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "tag": "forge:molten_soul_stained_steel",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/soul_stained_steel"
+  },
+  "cooling_time": 63
+}

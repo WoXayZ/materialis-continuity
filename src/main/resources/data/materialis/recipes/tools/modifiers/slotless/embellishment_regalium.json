@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:regalium"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

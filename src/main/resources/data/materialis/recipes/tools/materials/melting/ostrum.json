@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "materialis:ostrum",
+  "temperature": 900,
+  "result": {
+    "fluid": "materialis:molten_ostrum",
+    "amount": 90
+  }
+}

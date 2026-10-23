@@ -1,0 +1,43 @@
+{
+  "condition": {
+    "type": "forge:and",
+    "values": [
+      {
+        "type": "forge:or",
+        "values": [
+          {
+            "type": "forge:mod_loaded",
+            "modid": "ad_extendra"
+          },
+          {
+            "type": "forge:not",
+            "value": {
+              "type": "forge:tag_empty",
+              "tag": "forge:ingots/juperium"
+            }
+          }
+        ]
+      },
+      {
+        "type": "forge:or",
+        "values": [
+          {
+            "type": "tconstruct:config",
+            "prop": "force_integration_materials"
+          },
+          {
+            "type": "forge:not",
+            "value": {
+              "type": "forge:tag_empty",
+              "tag": "forge:ingots/juperium"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "craftable": false,
+  "tier": 4,
+  "sortOrder": 6,
+  "hidden": false
+}

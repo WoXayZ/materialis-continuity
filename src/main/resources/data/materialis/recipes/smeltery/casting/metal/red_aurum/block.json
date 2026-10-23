@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "materialis:molten_red_aurum",
+    "amount": 810
+  },
+  "result": "materialis:red_aurum_block",
+  "cooling_time": 176
+}

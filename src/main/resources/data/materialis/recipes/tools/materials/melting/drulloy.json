@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "materialis:drulloy",
+  "temperature": 800,
+  "result": {
+    "fluid": "materialis:molten_drulloy",
+    "amount": 90
+  }
+}

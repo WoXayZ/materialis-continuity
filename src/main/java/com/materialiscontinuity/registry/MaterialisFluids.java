@@ -19,6 +19,10 @@ public class MaterialisFluids {
 	public static final FluidDeferredRegisterExtension FLUIDS = new FluidDeferredRegisterExtension(Materialis.MOD_ID);
 
 	public static final FlowingFluidObject<?> MOLTEN_FAIRY = metal("molten_fairy", 1050, 15, MapColor.COLOR_PINK);
+	public static final FlowingFluidObject<?> MOLTEN_ALUMITE = metal("molten_alumite", 1050, 15, MapColor.COLOR_PINK);
+	public static final FlowingFluidObject<?> MOLTEN_DRULLOY = metal("molten_drulloy", 800, 15, MapColor.TERRACOTTA_BROWN);
+	public static final FlowingFluidObject<?> MOLTEN_POKEFENNIUM = metal("molten_pokefennium", 1100, 15, MapColor.COLOR_CYAN);
+	public static final FlowingFluidObject<?> MOLTEN_RED_AURUM = metal("molten_red_aurum", 950, 15, MapColor.COLOR_RED);
 
 	public static final FlowingFluidObject<?> MOLTEN_REFINED_RADIANCE = metal("molten_refined_radiance", 1600, 15, MapColor.SNOW);
 	public static final FlowingFluidObject<?> MOLTEN_SHADOW_STEEL = metal("molten_shadow_steel", 1600, 0, MapColor.COLOR_BLACK);
@@ -53,13 +57,23 @@ public class MaterialisFluids {
 
 	public static final FlowingFluidObject<?> MOLTEN_FLUX_INFUSED = metal("molten_flux_infused", 1180, 12, MapColor.COLOR_RED);
 
+	public static final FlowingFluidObject<?> MOLTEN_DESH = metal("molten_desh", 800, 10, MapColor.TERRACOTTA_ORANGE);
+	public static final FlowingFluidObject<?> MOLTEN_OSTRUM = metal("molten_ostrum", 900, 8, MapColor.COLOR_PINK);
+	public static final FlowingFluidObject<?> MOLTEN_CALORITE = metal("molten_calorite", 1050, 12, MapColor.COLOR_RED);
+	public static final FlowingFluidObject<?> MOLTEN_JUPERIUM = metal("molten_juperium", 1100, 12, MapColor.ICE);
+	public static final FlowingFluidObject<?> MOLTEN_SATURLYTE = metal("molten_saturlyte", 1150, 12, MapColor.COLOR_PURPLE);
+	public static final FlowingFluidObject<?> MOLTEN_HALLOWED_GOLD = metal("molten_hallowed_gold", 700, 12, MapColor.GOLD);
+	public static final FlowingFluidObject<?> MOLTEN_SOUL_STAINED_STEEL = metal("molten_soul_stained_steel", 950, 8, MapColor.COLOR_PURPLE);
+
 	public static final List<FlowingFluidObject<?>> COMPAT_FLUIDS = List.of(
 			MOLTEN_FAIRY, MOLTEN_REFINED_RADIANCE, MOLTEN_SHADOW_STEEL, MOLTEN_ARCANE_GOLD,
 			MOLTEN_NEPTUNIUM, MOLTEN_ORICHALCUM, MOLTEN_STARMETAL, MOLTEN_PINK_SLIME,
 			MOLTEN_CLOGGRUM, MOLTEN_FROSTSTEEL, MOLTEN_UTHERIUM, MOLTEN_FORGOTTEN_METAL, MOLTEN_REGALIUM,
 			MOLTEN_PSIMETAL, MOLTEN_EBONY_PSIMETAL, MOLTEN_IVORY_PSIMETAL, MOLTEN_IESNIUM,
 			MOLTEN_MANASTEEL, MOLTEN_ELEMENTIUM, MOLTEN_TERRASTEEL, MOLTEN_ALFSTEEL,
-			MOLTEN_DRACONIUM, MOLTEN_DRACONIUM_AWAKENED, MOLTEN_FLUX_INFUSED);
+			MOLTEN_DRACONIUM, MOLTEN_DRACONIUM_AWAKENED, MOLTEN_FLUX_INFUSED,
+			MOLTEN_DESH, MOLTEN_OSTRUM, MOLTEN_CALORITE, MOLTEN_JUPERIUM, MOLTEN_SATURLYTE, MOLTEN_HALLOWED_GOLD,
+			MOLTEN_SOUL_STAINED_STEEL);
 
 	private static FlowingFluidObject<?> metal(String name, int temperature, int light, MapColor color) {
 		return FLUIDS.registerMetal(name)

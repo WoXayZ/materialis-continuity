@@ -27,9 +27,17 @@ public class MaterialisBlocks {
 			.replaceable()
 			.pushReaction(PushReaction.DESTROY)));
 
-	public static final RegistryObject<Block> FAIRY_BLOCK = BLOCKS.register("fairy_block", () -> new Block(BlockBehaviour.Properties.of()
-			.mapColor(MapColor.COLOR_PINK)
-			.strength(6.0F, 6.0F)
-			.sound(SoundType.METAL)
-			.requiresCorrectToolForDrops()));
+	public static final RegistryObject<Block> FAIRY_BLOCK = storage("fairy_block", MapColor.COLOR_PINK);
+	public static final RegistryObject<Block> ALUMITE_BLOCK = storage("alumite_block", MapColor.COLOR_PINK);
+	public static final RegistryObject<Block> DRULLOY_BLOCK = storage("drulloy_block", MapColor.TERRACOTTA_BROWN);
+	public static final RegistryObject<Block> POKEFENNIUM_BLOCK = storage("pokefennium_block", MapColor.COLOR_CYAN);
+	public static final RegistryObject<Block> RED_AURUM_BLOCK = storage("red_aurum_block", MapColor.COLOR_RED);
+
+	private static RegistryObject<Block> storage(String name, MapColor color) {
+		return BLOCKS.register(name, () -> new Block(BlockBehaviour.Properties.of()
+				.mapColor(color)
+				.strength(6.0F, 6.0F)
+				.sound(SoundType.METAL)
+				.requiresCorrectToolForDrops()));
+	}
 }

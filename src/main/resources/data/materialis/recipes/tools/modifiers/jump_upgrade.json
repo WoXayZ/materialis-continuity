@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio_base"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:piston"
+    },
+    {
+      "item": "minecraft:slime_ball"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/boots"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:jump_upgrade",
+  "max_level": 3
+}

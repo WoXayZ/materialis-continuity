@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/red_aurum"
+  },
+  "result": {
+    "fluid": "materialis:molten_red_aurum",
+    "amount": 810
+  },
+  "temperature": 950,
+  "time": 176
+}

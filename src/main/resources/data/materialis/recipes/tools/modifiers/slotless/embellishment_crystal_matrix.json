@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:crystal_matrix"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

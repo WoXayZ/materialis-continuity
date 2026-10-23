@@ -1,0 +1,11 @@
+{
+  "color": "FFA932E7",
+  "still": "materialis:block/fluid/molten_saturlyte_still",
+  "flowing": "materialis:block/fluid/molten_saturlyte_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

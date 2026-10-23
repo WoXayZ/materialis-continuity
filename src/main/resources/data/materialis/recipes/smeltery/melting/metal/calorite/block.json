@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/calorite"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/calorite"
+  },
+  "result": {
+    "fluid": "materialis:molten_calorite",
+    "amount": 810
+  },
+  "temperature": 1050,
+  "time": 180
+}

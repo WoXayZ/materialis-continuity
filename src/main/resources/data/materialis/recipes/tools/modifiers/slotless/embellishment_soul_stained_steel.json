@@ -1,0 +1,36 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "tcintegrations"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    },
+    {
+      "item": "malum:soul_stained_steel_ingot"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:soul_stained_steel"
+  },
+  "variant_formatter": "tconstruct:material"
+}

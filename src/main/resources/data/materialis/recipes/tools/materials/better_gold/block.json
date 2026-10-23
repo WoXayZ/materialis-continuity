@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/better_gold"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/better_gold"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "materialis:better_gold",
+  "leftover": {
+    "tag": "forge:ingots/better_gold"
+  }
+}

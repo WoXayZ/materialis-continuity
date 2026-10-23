@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/better_gold"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/better_gold"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "materialis:better_gold"
+}

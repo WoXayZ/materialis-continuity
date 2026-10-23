@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/desh"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/desh"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "materialis:desh",
+  "leftover": {
+    "tag": "forge:ingots/desh"
+  }
+}

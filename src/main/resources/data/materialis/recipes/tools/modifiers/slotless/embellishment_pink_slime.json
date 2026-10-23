@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:pink_slime"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

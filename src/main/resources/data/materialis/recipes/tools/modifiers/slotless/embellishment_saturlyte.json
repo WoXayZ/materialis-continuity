@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/saturlyte"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/saturlyte"
+    },
+    {
+      "tag": "forge:ingots/saturlyte"
+    },
+    {
+      "tag": "forge:ingots/saturlyte"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:saturlyte"
+  },
+  "variant_formatter": "tconstruct:material"
+}

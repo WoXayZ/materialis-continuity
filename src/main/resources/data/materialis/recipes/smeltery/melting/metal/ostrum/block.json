@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/ostrum"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/ostrum"
+  },
+  "result": {
+    "fluid": "materialis:molten_ostrum",
+    "amount": 810
+  },
+  "temperature": 900,
+  "time": 180
+}

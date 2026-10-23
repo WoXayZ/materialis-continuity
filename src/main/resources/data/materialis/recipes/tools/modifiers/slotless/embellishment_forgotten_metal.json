@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:forgotten_metal"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/pokefennium"
+  },
+  "result": {
+    "fluid": "materialis:molten_pokefennium",
+    "amount": 10
+  },
+  "temperature": 1100,
+  "time": 20
+}

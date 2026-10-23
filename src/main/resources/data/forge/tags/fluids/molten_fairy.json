@@ -1,6 +1,9 @@
 {
   "replace": false,
   "values": [
-    "materialis:molten_fairy"
+    {
+      "id": "materialis:molten_fairy",
+      "required": false
+    }
   ]
 }

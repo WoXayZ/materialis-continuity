@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aquaculture:neptunium_nugget",
+      "required": false
+    },
+    {
+      "id": "ad_extendra:neptunium_nugget",
+      "required": false
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:dusts/drulloy"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_drulloy"
+      }
+    }
+  ],
+  "duration": 60,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_dust"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_drulloy",
+    "amount": 90
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 90
+  },
+  "output": {
+    "tag": "forge:dusts/drulloy"
+  }
+}

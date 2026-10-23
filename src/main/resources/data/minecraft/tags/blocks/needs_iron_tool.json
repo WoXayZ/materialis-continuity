@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "materialis:alumite_block",
+    "materialis:red_aurum_block",
+    "materialis:drulloy_block",
+    "materialis:pokefennium_block"
+  ]
+}

@@ -74,6 +74,13 @@ public class Materialis {
 		}
 		ToolCapabilityProvider.register(TinkerToolFluxed::new);
 		CraftingHelper.register(MaterialisConfigCondition.SERIALIZER);
+		if (ModList.get().isLoaded("ad_astra")) {
+			try {
+				Class.forName("com.materialiscontinuity.compat.adastra.AdAstraApis").getMethod("registerEvents").invoke(null);
+			} catch (ReflectiveOperationException e) {
+				LOGGER.error("Failed to register Ad Astra compatibility events", e);
+			}
+		}
 		if (!TierSortingRegistry.isTierSorted(com.materialiscontinuity.util.InfinityTier.instance)) {
 			var sorted = TierSortingRegistry.getSortedTiers();
 			if (!sorted.isEmpty()) {

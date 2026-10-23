@@ -13,14 +13,6 @@
           "color": "FF000000"
         },
         {
-          "grey": 63,
-          "path": "materialis:material/neutronium_outline"
-        },
-        {
-          "grey": 102,
-          "path": "materialis:material/neutronium_outline"
-        },
-        {
           "grey": 140,
           "color": "FF5B5B5B"
         },
@@ -39,20 +31,20 @@
       ]
     },
     "supported_stats": [
-      "tconstruct:head",
-      "tconstruct:handle",
-      "tconstruct:binding",
-      "tconstruct:repair_kit",
-      "tconstruct:armor_plating",
-      "tconstruct:plating_helmet",
-      "tconstruct:plating_chestplate",
-      "tconstruct:plating_leggings",
-      "tconstruct:plating_boots",
-      "tconstruct:plating_shield",
-      "tconstruct:maille",
       "tconstruct:armor_maille",
+      "tconstruct:armor_plating",
+      "tconstruct:binding",
+      "tconstruct:grip",
+      "tconstruct:handle",
+      "tconstruct:head",
       "tconstruct:limb",
-      "tconstruct:grip"
+      "tconstruct:maille",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_shield",
+      "tconstruct:repair_kit"
     ]
   }
 }

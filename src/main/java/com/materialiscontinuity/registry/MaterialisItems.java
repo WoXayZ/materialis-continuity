@@ -34,6 +34,22 @@ public class MaterialisItems {
 	public static final ItemObject<Item> FAIRY_NUGGET = ITEMS.register("fairy_nugget", () -> new Item(ITEM_PROPS));
 	public static final ItemObject<BlockItem> FAIRY_BLOCK_ITEM = ITEMS.register("fairy_block", () -> new BlockItem(MaterialisBlocks.FAIRY_BLOCK.get(), ITEM_PROPS));
 
+	public static final ItemObject<Item> ALUMITE_INGOT = ITEMS.register("alumite_ingot", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<Item> ALUMITE_NUGGET = ITEMS.register("alumite_nugget", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<BlockItem> ALUMITE_BLOCK_ITEM = ITEMS.register("alumite_block", () -> new BlockItem(MaterialisBlocks.ALUMITE_BLOCK.get(), ITEM_PROPS));
+
+	public static final ItemObject<Item> DRULLOY_INGOT = ITEMS.register("drulloy_ingot", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<Item> DRULLOY_NUGGET = ITEMS.register("drulloy_nugget", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<BlockItem> DRULLOY_BLOCK_ITEM = ITEMS.register("drulloy_block", () -> new BlockItem(MaterialisBlocks.DRULLOY_BLOCK.get(), ITEM_PROPS));
+
+	public static final ItemObject<Item> POKEFENNIUM_INGOT = ITEMS.register("pokefennium_ingot", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<Item> POKEFENNIUM_NUGGET = ITEMS.register("pokefennium_nugget", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<BlockItem> POKEFENNIUM_BLOCK_ITEM = ITEMS.register("pokefennium_block", () -> new BlockItem(MaterialisBlocks.POKEFENNIUM_BLOCK.get(), ITEM_PROPS));
+
+	public static final ItemObject<Item> RED_AURUM_INGOT = ITEMS.register("red_aurum_ingot", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<Item> RED_AURUM_NUGGET = ITEMS.register("red_aurum_nugget", () -> new Item(ITEM_PROPS));
+	public static final ItemObject<BlockItem> RED_AURUM_BLOCK_ITEM = ITEMS.register("red_aurum_block", () -> new BlockItem(MaterialisBlocks.RED_AURUM_BLOCK.get(), ITEM_PROPS));
+
 	public static final CastItemObject INLAY_CAST = ITEMS.registerCast("inlay", ITEM_PROPS);
 	public static final CastItemObject WRENCH_HEAD_CAST = ITEMS.registerCast("wrench_head", ITEM_PROPS);
 

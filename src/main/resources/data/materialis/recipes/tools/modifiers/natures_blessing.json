@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:bone_meal"
+    },
+    {
+      "item": "minecraft:golden_hoe"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/harvest"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:natures_blessing",
+  "max_level": 3
+}

@@ -1,0 +1,11 @@
+{
+  "color": "FF4A2A6A",
+  "still": "materialis:block/fluid/molten_soul_stained_steel_still",
+  "flowing": "materialis:block/fluid/molten_soul_stained_steel_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

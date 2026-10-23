@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:ingots/hallowed_gold",
+    "#forge:ingots/alumite",
+    "#forge:ingots/red_aurum",
+    "#forge:ingots/drulloy",
+    "#forge:ingots/pokefennium"
+  ]
+}

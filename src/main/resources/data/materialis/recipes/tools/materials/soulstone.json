@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "ingredient": {
+    "item": "malum:processed_soulstone"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "materialis:soulstone"
+}

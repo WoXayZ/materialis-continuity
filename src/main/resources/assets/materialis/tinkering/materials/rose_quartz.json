@@ -44,6 +44,17 @@
       }
     },
     "supported_stats": [
+      "tconstruct:armor_maille",
+      "tconstruct:armor_plating",
+      "tconstruct:binding",
+      "tconstruct:handle",
+      "tconstruct:head",
+      "tconstruct:maille",
+      "tconstruct:plating_boots",
+      "tconstruct:plating_chestplate",
+      "tconstruct:plating_helmet",
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_shield",
       "tconstruct:repair_kit"
     ]
   }

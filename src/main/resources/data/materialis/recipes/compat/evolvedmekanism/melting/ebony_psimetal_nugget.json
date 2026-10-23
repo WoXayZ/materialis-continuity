@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/ebony_psimetal"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_ebony_psimetal"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:nuggets/ebony_psimetal"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_ebony_psimetal",
+    "amount": 10
+  }
+}

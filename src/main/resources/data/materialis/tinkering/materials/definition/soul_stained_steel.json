@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "type": "forge:and",
+    "values": [
+      {
+        "type": "forge:not",
+        "value": {
+          "type": "forge:mod_loaded",
+          "modid": "tcintegrations"
+        }
+      },
+      {
+        "type": "forge:or",
+        "values": [
+          {
+            "type": "tconstruct:config",
+            "prop": "force_integration_materials"
+          },
+          {
+            "type": "forge:mod_loaded",
+            "modid": "malum"
+          }
+        ]
+      }
+    ]
+  },
+  "craftable": false,
+  "tier": 3,
+  "sortOrder": 7,
+  "hidden": false
+}

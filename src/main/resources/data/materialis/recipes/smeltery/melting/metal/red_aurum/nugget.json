@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:nuggets/red_aurum"
+  },
+  "result": {
+    "fluid": "materialis:molten_red_aurum",
+    "amount": 10
+  },
+  "temperature": 950,
+  "time": 20
+}

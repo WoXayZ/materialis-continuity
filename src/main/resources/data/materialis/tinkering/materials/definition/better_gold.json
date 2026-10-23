@@ -1,0 +1,31 @@
+{
+  "condition": {
+    "type": "forge:and",
+    "values": [
+      {
+        "type": "forge:mod_loaded",
+        "modid": "evolvedmekanism"
+      },
+      {
+        "type": "forge:or",
+        "values": [
+          {
+            "type": "tconstruct:config",
+            "prop": "force_integration_materials"
+          },
+          {
+            "type": "forge:not",
+            "value": {
+              "type": "forge:tag_empty",
+              "tag": "forge:ingots/better_gold"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "craftable": true,
+  "tier": 2,
+  "sortOrder": 6,
+  "hidden": false
+}

@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/desh"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/desh"
+    },
+    {
+      "tag": "forge:ingots/desh"
+    },
+    {
+      "tag": "forge:ingots/desh"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:desh"
+  },
+  "variant_formatter": "tconstruct:material"
+}

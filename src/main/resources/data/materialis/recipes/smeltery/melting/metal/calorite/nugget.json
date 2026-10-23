@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/calorite"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/calorite"
+  },
+  "result": {
+    "fluid": "materialis:molten_calorite",
+    "amount": 10
+  },
+  "temperature": 1050,
+  "time": 20
+}

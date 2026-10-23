@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_fluid",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    }
+  ],
+  "fluid": {
+    "tag": "forge:molten_plaslitherite",
+    "amount": 90
+  },
+  "temperature": 800,
+  "output": "materialis:plaslitherite"
+}

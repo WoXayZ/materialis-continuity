@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/ostrum"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/ostrum"
+  },
+  "value": 1,
+  "needed": 1,
+  "material": "materialis:ostrum"
+}

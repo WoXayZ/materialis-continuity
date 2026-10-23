@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/saturlyte"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:ingots/saturlyte"
+  },
+  "result": {
+    "fluid": "materialis:molten_saturlyte",
+    "amount": 90
+  },
+  "temperature": 1150,
+  "time": 60
+}

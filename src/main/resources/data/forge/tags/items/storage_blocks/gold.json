@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "remove": [
+    {
+      "id": "malum:block_of_hallowed_gold",
+      "required": false
+    }
+  ]
+}

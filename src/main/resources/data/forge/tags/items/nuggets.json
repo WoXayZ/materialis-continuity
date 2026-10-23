@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "#forge:nuggets/hallowed_gold",
+    "#forge:nuggets/alumite",
+    "#forge:nuggets/red_aurum",
+    "#forge:nuggets/drulloy",
+    "#forge:nuggets/pokefennium"
+  ]
+}

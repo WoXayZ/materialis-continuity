@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:iron_block"
+    },
+    {
+      "item": "minecraft:piston"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/shields"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:shield_bash",
+  "max_level": 5
+}

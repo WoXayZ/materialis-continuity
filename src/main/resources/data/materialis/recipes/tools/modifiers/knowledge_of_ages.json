@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:experience_bottle"
+    },
+    {
+      "item": "minecraft:book"
+    },
+    {
+      "item": "minecraft:experience_bottle"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:knowledge_of_ages",
+  "max_level": 3
+}

@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ad_astra_giselle_addon"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "item": "ad_astra:oxygen_bucket"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:space_breathing",
+  "max_level": 1
+}

@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/alumite"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_alumite"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:plates/alumite"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_alumite",
+    "amount": 90
+  }
+}

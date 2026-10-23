@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:coins/fairy"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_fairy"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:coins/fairy"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_fairy",
+    "amount": 30
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:coins/soul_stained_steel"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_soul_stained_steel"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:coins/soul_stained_steel"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_soul_stained_steel",
+    "amount": 30
+  }
+}

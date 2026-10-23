@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:gears/pokefennium"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_pokefennium"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:gears/pokefennium"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_pokefennium",
+    "amount": 360
+  }
+}

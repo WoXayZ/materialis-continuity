@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:packed_ice"
+    },
+    {
+      "item": "minecraft:cactus"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:icy_thorns",
+  "max_level": 3
+}

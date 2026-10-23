@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "pneumaticcraft"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "pneumaticcraft:pressure_tube"
+    },
+    {
+      "item": "pneumaticcraft:ingot_iron_compressed"
+    },
+    {
+      "item": "pneumaticcraft:pressure_tube"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:pressurized",
+  "max_level": 3
+}

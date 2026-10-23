@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "tcintegrations"
+      }
+    }
+  ],
+  "ingredient": {
+    "item": "malum:block_of_soul_stained_steel"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "materialis:soul_stained_steel",
+  "leftover": {
+    "item": "malum:soul_stained_steel_ingot"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:sheetmetals/drulloy",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:sheetmetals/drulloy"
+  },
+  "result": {
+    "fluid": "materialis:molten_drulloy",
+    "amount": 90
+  },
+  "temperature": 800,
+  "time": 59
+}

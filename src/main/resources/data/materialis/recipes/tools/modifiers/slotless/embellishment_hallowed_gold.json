@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    },
+    {
+      "item": "malum:hallowed_gold_ingot"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:hallowed_gold"
+  },
+  "variant_formatter": "tconstruct:material"
+}

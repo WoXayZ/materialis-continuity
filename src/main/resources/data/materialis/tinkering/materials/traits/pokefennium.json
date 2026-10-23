@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "name": "tconstruct:momentum",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "name": "tconstruct:recurrent_protection",
+        "level": 1
+      }
+    ]
+  }
+}

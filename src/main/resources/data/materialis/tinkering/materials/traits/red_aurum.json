@@ -1,0 +1,16 @@
+{
+  "default": [
+    {
+      "name": "tconstruct:fiery",
+      "level": 1
+    }
+  ],
+  "perStat": {
+    "tconstruct:armor": [
+      {
+        "name": "tconstruct:fire_protection",
+        "level": 1
+      }
+    ]
+  }
+}

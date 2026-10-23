@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/pokefennium"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_pokefennium"
+      }
+    }
+  ],
+  "duration": 540,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_storage_block"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_pokefennium",
+    "amount": 810
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 810
+  },
+  "output": {
+    "tag": "forge:storage_blocks/pokefennium"
+  }
+}

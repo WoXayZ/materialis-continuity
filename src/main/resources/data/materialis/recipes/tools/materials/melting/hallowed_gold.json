@@ -1,0 +1,15 @@
+{
+  "type": "tconstruct:material_melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "malum"
+    }
+  ],
+  "input": "materialis:hallowed_gold",
+  "temperature": 700,
+  "result": {
+    "fluid": "materialis:molten_hallowed_gold",
+    "amount": 90
+  }
+}

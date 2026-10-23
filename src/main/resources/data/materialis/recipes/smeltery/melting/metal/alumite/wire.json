@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:wires/alumite",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:wires/alumite"
+  },
+  "result": {
+    "fluid": "materialis:molten_alumite",
+    "amount": 45
+  },
+  "temperature": 1050,
+  "time": 12
+}

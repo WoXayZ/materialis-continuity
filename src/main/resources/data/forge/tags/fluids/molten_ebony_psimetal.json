@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "materialis:molten_ebony_psimetal",
+      "required": false
+    }
+  ]
+}

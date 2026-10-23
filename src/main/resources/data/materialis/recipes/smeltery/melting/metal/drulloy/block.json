@@ -1,0 +1,12 @@
+{
+  "type": "tconstruct:melting",
+  "ingredient": {
+    "tag": "forge:storage_blocks/drulloy"
+  },
+  "result": {
+    "fluid": "materialis:molten_drulloy",
+    "amount": 810
+  },
+  "temperature": 800,
+  "time": 176
+}

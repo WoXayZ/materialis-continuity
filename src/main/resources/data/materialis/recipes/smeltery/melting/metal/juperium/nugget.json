@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/juperium"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:nuggets/juperium"
+  },
+  "result": {
+    "fluid": "materialis:molten_juperium",
+    "amount": 10
+  },
+  "temperature": 1100,
+  "time": 20
+}

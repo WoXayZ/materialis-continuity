@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "materialis:saturlyte",
+  "temperature": 1150,
+  "result": {
+    "fluid": "materialis:molten_saturlyte",
+    "amount": 90
+  }
+}

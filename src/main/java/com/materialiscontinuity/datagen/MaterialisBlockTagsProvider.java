@@ -20,9 +20,9 @@ public class MaterialisBlockTagsProvider extends BlockTagsProvider {
 
 	@Override
 	protected void addTags(HolderLookup.Provider provider) {
-		tag(BlockTags.NEEDS_IRON_TOOL).add(MaterialisBlocks.FAIRY_BLOCK.get());
-		tag(BlockTags.MINEABLE_WITH_PICKAXE).add(MaterialisBlocks.FAIRY_BLOCK.get());
-		tag(Tags.Blocks.STORAGE_BLOCKS).add(MaterialisBlocks.FAIRY_BLOCK.get());
+		tag(BlockTags.NEEDS_IRON_TOOL).add(MaterialisBlocks.FAIRY_BLOCK.get(), MaterialisBlocks.ALUMITE_BLOCK.get(), MaterialisBlocks.DRULLOY_BLOCK.get(), MaterialisBlocks.POKEFENNIUM_BLOCK.get(), MaterialisBlocks.RED_AURUM_BLOCK.get());
+		tag(BlockTags.MINEABLE_WITH_PICKAXE).add(MaterialisBlocks.FAIRY_BLOCK.get(), MaterialisBlocks.ALUMITE_BLOCK.get(), MaterialisBlocks.DRULLOY_BLOCK.get(), MaterialisBlocks.POKEFENNIUM_BLOCK.get(), MaterialisBlocks.RED_AURUM_BLOCK.get());
+		tag(Tags.Blocks.STORAGE_BLOCKS).add(MaterialisBlocks.FAIRY_BLOCK.get(), MaterialisBlocks.ALUMITE_BLOCK.get(), MaterialisBlocks.DRULLOY_BLOCK.get(), MaterialisBlocks.POKEFENNIUM_BLOCK.get(), MaterialisBlocks.RED_AURUM_BLOCK.get());
 
 		tag(MaterialisBlockTags.MINEABLE_WITH_WRENCH)
 				.addTag(Tags.Blocks.STORAGE_BLOCKS)

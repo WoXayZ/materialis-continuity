@@ -1,8 +1,10 @@
 package com.materialiscontinuity;
 
+import com.materialiscontinuity.client.TinkersPartOverridePack;
 import com.materialiscontinuity.registry.MaterialisEntities;
 import com.materialiscontinuity.registry.MaterialisItems;
 import com.materialiscontinuity.util.ArmorModelHelper;
+import com.materialiscontinuity.util.GreyToFittingSpriteTransformer;
 import com.materialiscontinuity.util.ManashotRenderer;
 import com.materialiscontinuity.util.TintedModifierModel;
 
@@ -12,6 +14,7 @@ import net.minecraft.world.item.ArmorItem;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.client.event.RegisterClientReloadListenersEvent;
 import net.minecraftforge.client.event.RegisterColorHandlersEvent;
+import net.minecraftforge.event.AddPackFindersEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod.EventBusSubscriber;
@@ -24,8 +27,18 @@ import slimeknights.tconstruct.library.client.modifiers.ModifierModelManager.Mod
 @EventBusSubscriber(modid = Materialis.MOD_ID, value = Dist.CLIENT, bus = Bus.MOD)
 public class MaterialisClient {
 
+	static {
+		GreyToFittingSpriteTransformer.init();
+	}
+
+	@SubscribeEvent
+	static void addPackFinders(AddPackFindersEvent event) {
+		TinkersPartOverridePack.addPackFinder(event);
+	}
+
 	@SubscribeEvent
 	static void clientSetup(FMLClientSetupEvent event) {
+		GreyToFittingSpriteTransformer.init();
 		NBTKeyModel.registerExtraTexture(new ResourceLocation("tconstruct", "creative_slot"), "sensor", Materialis.getResource("item/sensor_slot"));
 		if (ModList.get().isLoaded("psi")) {
 			NBTKeyModel.registerExtraTexture(new ResourceLocation("tconstruct", "creative_slot"), "colorizer", new ResourceLocation("psi", "item/dye_cannister_special_psi"));

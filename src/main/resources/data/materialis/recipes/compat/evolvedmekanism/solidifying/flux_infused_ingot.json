@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/flux_infused"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_flux_infused"
+      }
+    }
+  ],
+  "duration": 60,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_ingot"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_flux_infused",
+    "amount": 90
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 90
+  },
+  "output": {
+    "tag": "forge:ingots/flux_infused"
+  }
+}

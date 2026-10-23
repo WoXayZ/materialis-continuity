@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ad_astra_giselle_addon"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/calorite"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:space_fire_proof",
+  "max_level": 1
+}

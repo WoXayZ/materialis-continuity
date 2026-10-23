@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:refined_glowstone"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

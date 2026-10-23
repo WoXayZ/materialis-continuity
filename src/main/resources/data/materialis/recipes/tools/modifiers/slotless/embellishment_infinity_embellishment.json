@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:infinity_embellishment"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

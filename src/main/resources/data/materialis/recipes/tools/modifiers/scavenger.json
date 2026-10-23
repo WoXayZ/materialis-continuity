@@ -1,0 +1,26 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "apotheosis"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:gold_block"
+    },
+    {
+      "item": "minecraft:nether_star"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/melee"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:scavenger",
+  "max_level": 3
+}

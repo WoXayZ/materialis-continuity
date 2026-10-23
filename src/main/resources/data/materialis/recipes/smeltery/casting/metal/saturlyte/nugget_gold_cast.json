@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/saturlyte"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "tag": "forge:molten_saturlyte",
+    "amount": 10
+  },
+  "result": {
+    "tag": "forge:nuggets/saturlyte"
+  },
+  "cooling_time": 28
+}

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_gold",
+      "amount": 180
+    },
+    {
+      "tag": "tconstruct:blazing_blood",
+      "amount": 100
+    },
+    {
+      "tag": "tconstruct:meat_soup",
+      "amount": 100
+    }
+  ],
+  "result": {
+    "fluid": "materialis:molten_red_aurum",
+    "amount": 180
+  },
+  "temperature": 950
+}

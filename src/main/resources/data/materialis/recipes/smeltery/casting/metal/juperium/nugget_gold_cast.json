@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/juperium"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "tag": "forge:molten_juperium",
+    "amount": 10
+  },
+  "result": {
+    "tag": "forge:nuggets/juperium"
+  },
+  "cooling_time": 27
+}

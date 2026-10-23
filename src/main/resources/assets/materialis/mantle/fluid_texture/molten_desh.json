@@ -1,0 +1,11 @@
+{
+  "color": "FFD68D4D",
+  "still": "materialis:block/fluid/molten_desh_still",
+  "flowing": "materialis:block/fluid/molten_desh_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

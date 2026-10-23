@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/psimetal"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_psimetal"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:rods/psimetal"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_psimetal",
+    "amount": 45
+  }
+}

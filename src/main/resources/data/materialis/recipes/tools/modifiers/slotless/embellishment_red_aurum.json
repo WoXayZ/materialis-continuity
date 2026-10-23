@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "inputs": [
+    {
+      "tag": "forge:ingots/red_aurum"
+    },
+    {
+      "tag": "forge:ingots/red_aurum"
+    },
+    {
+      "tag": "forge:ingots/red_aurum"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:red_aurum"
+  },
+  "variant_formatter": "tconstruct:material"
+}

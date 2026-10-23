@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:alfsteel"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

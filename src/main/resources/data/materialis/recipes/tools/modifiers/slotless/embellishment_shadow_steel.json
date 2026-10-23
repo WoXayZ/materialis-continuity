@@ -31,5 +31,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:shadow_steel"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

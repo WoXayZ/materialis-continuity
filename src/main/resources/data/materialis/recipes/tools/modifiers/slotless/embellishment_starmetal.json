@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:starmetal"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

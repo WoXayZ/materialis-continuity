@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_copper",
+      "amount": 180
+    },
+    {
+      "tag": "tconstruct:molten_clay",
+      "amount": 250
+    }
+  ],
+  "result": {
+    "fluid": "materialis:molten_drulloy",
+    "amount": 180
+  },
+  "temperature": 800
+}

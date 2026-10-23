@@ -23,6 +23,38 @@
       "accuracy": -0.1,
       "melee_damage": 3.0
     },
-    "tconstruct:binding": {}
+    "tconstruct:binding": {},
+    "tconstruct:plating_helmet": {
+      "durability": 750,
+      "armor": 3,
+      "toughness": 2,
+      "knockback_resistance": 0.05
+    },
+    "tconstruct:plating_chestplate": {
+      "durability": 1090,
+      "armor": 8,
+      "toughness": 2,
+      "knockback_resistance": 0.05
+    },
+    "tconstruct:plating_leggings": {
+      "durability": 1022,
+      "armor": 6,
+      "toughness": 2,
+      "knockback_resistance": 0.05
+    },
+    "tconstruct:plating_boots": {
+      "durability": 886,
+      "armor": 3,
+      "toughness": 2,
+      "knockback_resistance": 0.05
+    },
+    "tconstruct:plating_shield": {
+      "durability": 1227,
+      "toughness": 2,
+      "knockback_resistance": 0.05
+    },
+    "tconstruct:maille": {
+      "durability": 0.9
+    }
   }
 }

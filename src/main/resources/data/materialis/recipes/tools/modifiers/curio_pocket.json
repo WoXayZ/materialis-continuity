@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "curios"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:gold_nugget"
+    },
+    {
+      "item": "minecraft:chest"
+    },
+    {
+      "item": "minecraft:gold_nugget"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:curio_pocket",
+  "max_level": 1
+}

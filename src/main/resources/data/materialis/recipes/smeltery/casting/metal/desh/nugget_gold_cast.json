@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/desh"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/nugget"
+  },
+  "fluid": {
+    "tag": "forge:molten_desh",
+    "amount": 10
+  },
+  "result": {
+    "tag": "forge:nuggets/desh"
+  },
+  "cooling_time": 20
+}

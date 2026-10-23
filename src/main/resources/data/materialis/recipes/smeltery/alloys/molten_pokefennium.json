@@ -1,0 +1,18 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_cobalt",
+      "amount": 180
+    },
+    {
+      "tag": "forge:molten_tin",
+      "amount": 90
+    }
+  ],
+  "result": {
+    "fluid": "materialis:molten_pokefennium",
+    "amount": 180
+  },
+  "temperature": 1100
+}

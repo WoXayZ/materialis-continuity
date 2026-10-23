@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ad_astra_giselle_addon"
+      }
+    }
+  ],
+  "modifier": "materialis:gravity_normalizing",
+  "slots": {
+    "upgrades": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/boots"
+  }
+}

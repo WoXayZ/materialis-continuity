@@ -1,0 +1,35 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio_base"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:leather"
+    },
+    {
+      "item": "minecraft:kelp"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/boots"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:flippers",
+  "max_level": 1
+}

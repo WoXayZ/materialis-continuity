@@ -31,5 +31,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:refined_radiance"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

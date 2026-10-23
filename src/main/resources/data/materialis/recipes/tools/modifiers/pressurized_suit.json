@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "ad_astra:oxygen_bucket"
+    },
+    {
+      "tag": "forge:ingots/steel"
+    },
+    {
+      "item": "ad_astra:oxygen_bucket"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/helmets"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:pressurized_suit",
+  "max_level": 1
+}

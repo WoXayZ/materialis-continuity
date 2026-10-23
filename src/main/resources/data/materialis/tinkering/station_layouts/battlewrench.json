@@ -1,0 +1,46 @@
+{
+  "translation_key": "item.materialis.battlewrench",
+  "icon": {
+    "item": "materialis:battlewrench",
+    "nbt": "{Damage:0,tic_broken:0b,tic_display:1b,tic_materials:[\"tconstruct:ui_render#head\",\"tconstruct:ui_render#handle\",\"tconstruct:ui_render#extra\",\"tconstruct:ui_render#large\",\"tconstruct:ui_render#extra_large\"]}"
+  },
+  "sortIndex": 13,
+  "input_slots": [
+    {
+      "icon": "tconstruct:hammer_head",
+      "translation_key": "item.tconstruct.hammer_head",
+      "x": 44,
+      "y": 29,
+      "filter": {
+        "item": "tconstruct:hammer_head"
+      }
+    },
+    {
+      "icon": "tconstruct:tough_handle",
+      "translation_key": "item.tconstruct.tough_handle",
+      "x": 21,
+      "y": 52,
+      "filter": {
+        "item": "tconstruct:tough_handle"
+      }
+    },
+    {
+      "icon": "materialis:wrench_head",
+      "translation_key": "item.materialis.wrench_head",
+      "x": 50,
+      "y": 48,
+      "filter": {
+        "item": "materialis:wrench_head"
+      }
+    },
+    {
+      "icon": "materialis:wrench_head",
+      "translation_key": "item.materialis.wrench_head",
+      "x": 25,
+      "y": 20,
+      "filter": {
+        "item": "materialis:wrench_head"
+      }
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "materialis:molten_red_aurum",
+    "amount": 90
+  },
+  "temperature": 950,
+  "output": "materialis:red_aurum"
+}

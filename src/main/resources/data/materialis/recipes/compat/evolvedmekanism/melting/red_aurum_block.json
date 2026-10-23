@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/red_aurum"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_red_aurum"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:storage_blocks/red_aurum"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_red_aurum",
+    "amount": 810
+  }
+}

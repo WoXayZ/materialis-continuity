@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:terrasteel"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

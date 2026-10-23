@@ -1,0 +1,29 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evilcraft"
+    }
+  ],
+  "inputs": [
+    {
+      "item": "evilcraft:dark_gem"
+    },
+    {
+      "item": "evilcraft:blood_extractor"
+    },
+    {
+      "item": "evilcraft:dark_gem"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:bloodbound",
+  "max_level": 3
+}

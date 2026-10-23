@@ -35,6 +35,26 @@ public class MaterialisCreativeTabs {
 				output.accept(MaterialisItems.FAIRY_BLOCK_ITEM.get());
 				output.accept(MaterialisFluids.MOLTEN_FAIRY.getBucket());
 
+				output.accept(MaterialisItems.ALUMITE_INGOT.get());
+				output.accept(MaterialisItems.ALUMITE_NUGGET.get());
+				output.accept(MaterialisItems.ALUMITE_BLOCK_ITEM.get());
+				output.accept(MaterialisFluids.MOLTEN_ALUMITE.getBucket());
+
+				output.accept(MaterialisItems.DRULLOY_INGOT.get());
+				output.accept(MaterialisItems.DRULLOY_NUGGET.get());
+				output.accept(MaterialisItems.DRULLOY_BLOCK_ITEM.get());
+				output.accept(MaterialisFluids.MOLTEN_DRULLOY.getBucket());
+
+				output.accept(MaterialisItems.POKEFENNIUM_INGOT.get());
+				output.accept(MaterialisItems.POKEFENNIUM_NUGGET.get());
+				output.accept(MaterialisItems.POKEFENNIUM_BLOCK_ITEM.get());
+				output.accept(MaterialisFluids.MOLTEN_POKEFENNIUM.getBucket());
+
+				output.accept(MaterialisItems.RED_AURUM_INGOT.get());
+				output.accept(MaterialisItems.RED_AURUM_NUGGET.get());
+				output.accept(MaterialisItems.RED_AURUM_BLOCK_ITEM.get());
+				output.accept(MaterialisFluids.MOLTEN_RED_AURUM.getBucket());
+
 				for (FlowingFluidObject<?> fluid : MaterialisFluids.COMPAT_FLUIDS) {
 					if (fluid == MaterialisFluids.MOLTEN_FAIRY) {
 						continue;

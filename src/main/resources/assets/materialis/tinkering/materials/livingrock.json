@@ -1,0 +1,58 @@
+{
+  "fallbacks": [
+    "rock",
+    "stone"
+  ],
+  "color": "C4B9A5",
+  "luminosity": 0,
+  "generator": {
+    "transformer": {
+      "type": "tconstruct:recolor_sprite",
+      "color_mapping": {
+        "type": "tconstruct:grey_to_color",
+        "palette": [
+          {
+            "grey": 0,
+            "color": "FF000000"
+          },
+          {
+            "grey": 63,
+            "color": "FFC4B9A5"
+          },
+          {
+            "grey": 102,
+            "color": "FFC4B9A5"
+          },
+          {
+            "grey": 140,
+            "color": "FFC4B9A5"
+          },
+          {
+            "grey": 178,
+            "color": "FFC4B9A5"
+          },
+          {
+            "grey": 216,
+            "color": "FFC4B9A5"
+          },
+          {
+            "grey": 255,
+            "color": "FFFFFFFF"
+          }
+        ]
+      }
+    },
+    "supported_stats": [
+      "tconstruct:plating_leggings",
+      "tconstruct:plating_helmet",
+      "tconstruct:binding",
+      "tconstruct:head",
+      "tconstruct:plating_chestplate",
+      "tconstruct:repair_kit",
+      "tconstruct:maille",
+      "tconstruct:plating_boots",
+      "tconstruct:handle",
+      "tconstruct:plating_shield"
+    ]
+  }
+}

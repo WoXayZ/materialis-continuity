@@ -6,7 +6,7 @@
   "luminosity": 15,
   "generator": {
     "transformer": {
-      "type": "tconstruct:grey_to_sprite",
+      "type": "materialis:grey_to_fitting_sprite",
       "palette": [
         {
           "grey": 0,

@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_melting",
+  "input": "materialis:red_aurum",
+  "temperature": 950,
+  "result": {
+    "fluid": "materialis:molten_red_aurum",
+    "amount": 90
+  }
+}

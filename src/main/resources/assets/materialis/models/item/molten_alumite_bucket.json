@@ -1,0 +1,6 @@
+{
+  "parent": "forge:item/bucket_drip",
+  "flip_gas": false,
+  "fluid": "materialis:molten_alumite",
+  "loader": "tconstruct:fluid_container"
+}

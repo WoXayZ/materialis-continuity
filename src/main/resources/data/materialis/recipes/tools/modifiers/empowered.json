@@ -1,0 +1,38 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio_base"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/energetic_alloy"
+    },
+    {
+      "item": "enderio:basic_capacitor"
+    },
+    {
+      "tag": "forge:ingots/energetic_alloy"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:empowered",
+  "max_level": 4
+}

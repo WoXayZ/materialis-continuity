@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:iesnium"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

@@ -1,0 +1,22 @@
+{
+  "type": "tconstruct:alloy",
+  "inputs": [
+    {
+      "tag": "forge:molten_aluminum",
+      "amount": 450
+    },
+    {
+      "tag": "forge:molten_iron",
+      "amount": 180
+    },
+    {
+      "tag": "forge:molten_obsidian",
+      "amount": 2000
+    }
+  ],
+  "result": {
+    "fluid": "materialis:molten_alumite",
+    "amount": 270
+  },
+  "temperature": 1050
+}

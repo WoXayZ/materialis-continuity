@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:casting_basin",
+  "fluid": {
+    "tag": "materialis:molten_drulloy",
+    "amount": 810
+  },
+  "result": "materialis:drulloy_block",
+  "cooling_time": 176
+}

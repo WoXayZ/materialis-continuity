@@ -1,0 +1,11 @@
+{
+  "color": "FFB6E3FF",
+  "still": "materialis:block/fluid/molten_juperium_still",
+  "flowing": "materialis:block/fluid/molten_juperium_flow",
+  "fog": {
+    "calculate_color": true,
+    "end": 2.0,
+    "shape": "sphere",
+    "start": 0.25
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "ad_astra"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:mod_loaded",
+        "modid": "ad_astra_giselle_addon"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "item": "ad_astra:gravity_normalizer"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/boots"
+  },
+  "slots": {
+    "upgrades": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:gravity_normalizing",
+  "max_level": 1
+}

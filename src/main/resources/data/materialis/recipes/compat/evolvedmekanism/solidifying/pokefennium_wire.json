@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:wires/pokefennium"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_pokefennium"
+      }
+    }
+  ],
+  "duration": 30,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_wire"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_pokefennium",
+    "amount": 45
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 45
+  },
+  "output": {
+    "tag": "forge:wires/pokefennium"
+  }
+}

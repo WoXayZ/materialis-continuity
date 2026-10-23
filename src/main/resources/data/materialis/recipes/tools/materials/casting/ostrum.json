@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "forge:molten_ostrum",
+    "amount": 90
+  },
+  "temperature": 900,
+  "output": "materialis:ostrum"
+}

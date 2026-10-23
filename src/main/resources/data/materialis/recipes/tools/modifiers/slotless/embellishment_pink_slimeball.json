@@ -41,5 +41,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:pink_slimeball"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

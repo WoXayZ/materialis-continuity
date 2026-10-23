@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "remove": [
+    {
+      "id": "malum:hallowed_gold_ingot",
+      "required": false
+    }
+  ]
+}

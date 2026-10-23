@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:swappable_modifier",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/refined_redstone"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "tag": "forge:ingots/refined_redstone"
+    },
+    {
+      "tag": "forge:ingots/refined_redstone"
+    },
+    {
+      "tag": "forge:ingots/refined_redstone"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/embellishment/metal"
+  },
+  "allow_crystal": false,
+  "result": {
+    "name": "tconstruct:embellishment",
+    "value": "materialis:refined_redstone"
+  },
+  "variant_formatter": "tconstruct:material"
+}

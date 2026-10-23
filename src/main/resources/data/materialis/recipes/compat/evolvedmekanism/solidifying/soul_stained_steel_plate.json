@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/soul_stained_steel"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_soul_stained_steel"
+      }
+    }
+  ],
+  "duration": 60,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_plate"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_soul_stained_steel",
+    "amount": 90
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 90
+  },
+  "output": {
+    "tag": "forge:plates/soul_stained_steel"
+  }
+}

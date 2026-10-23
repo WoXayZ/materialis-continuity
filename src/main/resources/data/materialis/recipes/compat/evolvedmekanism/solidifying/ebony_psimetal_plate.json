@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:plates/ebony_psimetal"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_ebony_psimetal"
+      }
+    }
+  ],
+  "duration": 60,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_plate"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_ebony_psimetal",
+    "amount": 90
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 90
+  },
+  "output": {
+    "tag": "forge:plates/ebony_psimetal"
+  }
+}

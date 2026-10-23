@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "aquaculture:neptunium_ingot",
+      "required": false
+    },
+    {
+      "id": "ad_extendra:neptunium_ingot",
+      "required": false
+    }
+  ]
+}

@@ -16,6 +16,10 @@
     },
     "#forge:storage_blocks/alfsteel",
     "#forge:storage_blocks/flux_infused",
-    "#forge:storage_blocks/crystal_matrix"
+    "#forge:storage_blocks/crystal_matrix",
+    "#forge:storage_blocks/alumite",
+    "#forge:storage_blocks/red_aurum",
+    "#forge:storage_blocks/drulloy",
+    "#forge:storage_blocks/pokefennium"
   ]
 }

@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:material",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:storage_blocks/calorite"
+      }
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:storage_blocks/calorite"
+  },
+  "value": 9,
+  "needed": 1,
+  "material": "materialis:calorite",
+  "leftover": {
+    "tag": "forge:ingots/calorite"
+  }
+}

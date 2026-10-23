@@ -1,0 +1,9 @@
+{
+  "type": "tconstruct:material_fluid",
+  "fluid": {
+    "tag": "forge:molten_desh",
+    "amount": 90
+  },
+  "temperature": 800,
+  "output": "materialis:desh"
+}

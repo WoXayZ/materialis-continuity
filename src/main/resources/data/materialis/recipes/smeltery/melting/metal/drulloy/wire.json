@@ -1,0 +1,21 @@
+{
+  "type": "tconstruct:melting",
+  "conditions": [
+    {
+      "value": {
+        "tag": "forge:wires/drulloy",
+        "type": "forge:tag_empty"
+      },
+      "type": "forge:not"
+    }
+  ],
+  "ingredient": {
+    "tag": "forge:wires/drulloy"
+  },
+  "result": {
+    "fluid": "materialis:molten_drulloy",
+    "amount": 45
+  },
+  "temperature": 800,
+  "time": 12
+}

@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:rods/orichalcum"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_orichalcum"
+      }
+    }
+  ],
+  "duration": 30,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_rod"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_orichalcum",
+    "amount": 45
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 45
+  },
+  "output": {
+    "tag": "forge:rods/orichalcum"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "type": "tconstruct:modifier_salvage",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio_base"
+        }
+      ]
+    }
+  ],
+  "modifier": "materialis:elytra_upgrade",
+  "slots": {
+    "abilities": 1
+  },
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  }
+}

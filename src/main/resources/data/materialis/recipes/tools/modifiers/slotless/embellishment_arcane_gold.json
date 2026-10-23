@@ -27,5 +27,6 @@
   "result": {
     "name": "tconstruct:embellishment",
     "value": "materialis:arcane_gold"
-  }
+  },
+  "variant_formatter": "tconstruct:material"
 }

@@ -1,0 +1,23 @@
+{
+  "type": "tconstruct:casting_table",
+  "conditions": [
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:ingots/saturlyte"
+      }
+    }
+  ],
+  "cast": {
+    "tag": "tconstruct:casts/multi_use/ingot"
+  },
+  "fluid": {
+    "tag": "forge:molten_saturlyte",
+    "amount": 90
+  },
+  "result": {
+    "tag": "forge:ingots/saturlyte"
+  },
+  "cooling_time": 76
+}

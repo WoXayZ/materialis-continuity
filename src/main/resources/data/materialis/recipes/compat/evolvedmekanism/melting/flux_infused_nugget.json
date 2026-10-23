@@ -1,0 +1,32 @@
+{
+  "type": "evolvedmekanism:melting",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:nuggets/flux_infused"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_flux_infused"
+      }
+    }
+  ],
+  "input": {
+    "ingredient": {
+      "tag": "forge:nuggets/flux_infused"
+    }
+  },
+  "output": {
+    "tag": "forge:molten_flux_infused",
+    "amount": 10
+  }
+}

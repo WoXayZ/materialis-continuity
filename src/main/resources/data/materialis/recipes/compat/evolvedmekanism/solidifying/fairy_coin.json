@@ -1,0 +1,40 @@
+{
+  "type": "evolvedmekanism:solidifying",
+  "conditions": [
+    {
+      "type": "forge:mod_loaded",
+      "modid": "evolvedmekanism"
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:coins/fairy"
+      }
+    },
+    {
+      "type": "forge:not",
+      "value": {
+        "type": "forge:tag_empty",
+        "tag": "forge:molten_fairy"
+      }
+    }
+  ],
+  "duration": 20,
+  "itemInput": {
+    "ingredient": {
+      "item": "evolvedmekanism:mold_coin"
+    }
+  },
+  "fluidInput": {
+    "tag": "forge:molten_fairy",
+    "amount": 30
+  },
+  "extraInput": {
+    "fluid": "mekanism:oxygen",
+    "amount": 30
+  },
+  "output": {
+    "tag": "forge:coins/fairy"
+  }
+}

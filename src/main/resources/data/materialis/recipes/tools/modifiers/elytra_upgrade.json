@@ -1,0 +1,32 @@
+{
+  "type": "tconstruct:modifier",
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio"
+        },
+        {
+          "type": "forge:mod_loaded",
+          "modid": "enderio_base"
+        }
+      ]
+    }
+  ],
+  "inputs": [
+    {
+      "item": "minecraft:elytra"
+    }
+  ],
+  "tools": {
+    "tag": "tconstruct:modifiable/armor/chestplate"
+  },
+  "slots": {
+    "abilities": 1
+  },
+  "allow_crystal": true,
+  "result": "materialis:elytra_upgrade",
+  "max_level": 1
+}
